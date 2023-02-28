@@ -1,0 +1,37 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(../../assets/bg.jpeg);
+    background-size: cover;
+    .login_box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        height: 300px;
+        padding-top: 30px;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: rgba(255,255,255,0.2;);
+        box-shadow: 0 0 10px rgba(255,255,255,.3);;
+        #canvas {
+            position: absolute;
+            z-index: 1;
+            right: 0;
+            top: 128px;
+        }
+        .username,
+        .password,
+        .login_button{
+            width: 70%;
+            margin-left: 15%;
+        }
+        .yzm {
+            margin-left: 15%;
+            width: 150px;
+        }
+        .login_button {
+            background:linear-gradient(to right,rgb(123, 196, 217),rgb(56, 57, 120));
+        }
+    }
+}
